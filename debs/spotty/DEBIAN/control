@@ -1,0 +1,10 @@
+Package: com.fpt.spotty
+Name: Spotty
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Adds album art to the playlist view on Spotfiy.
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.3.0
+Installed-Size: 412

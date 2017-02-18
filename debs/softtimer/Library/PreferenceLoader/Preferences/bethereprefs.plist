@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = bethereprefs;
+	cell = PSLinkCell;
+	detail = bethereprefsListController;
+	icon = icon.png;
+	isController = 1;
+	label = "Soft Timer";
+    };
+}

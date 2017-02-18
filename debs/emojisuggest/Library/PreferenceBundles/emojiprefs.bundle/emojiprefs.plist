@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+                       <key>footerCellClass</key>
+                        <string>ESHeadingCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			  <key>cellClass</key>      <string>ESSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.emojiprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+  	<key>PostNotification</key>  <string>com.fpt.emojiprefs/reloadPrefs</string>
+		</dict>
+
+		<dict>
+				<key>cell</key>                 <string>PSGroupCell</string>
+				<key>label</key>               <string>Options</string>
+<key>footerText</key> <string>If you merge languages, you can predict words for one language in another keyboard. E.g. Predict German words with the English keyboard. You need to open the keyboard to add its predictions to the dictionary. If switched off, predictions will change depending on the keyboard you use.
+
+Supported languages: German, Dutch, Spanish, Portuguese, Italian, Korean, Turkish
+
+For keyboards that don't normally support predictions, enable force prediction bar. Made possible with assistance from /u/sinfool.
+</string>
+	 </dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			  <key>cellClass</key>      <string>ESSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.emojiprefs</string>
+			<key>key</key>
+			<string>replacing</string>
+			<key>label</key>
+			<string>Replace original text</string>
+  	<key>PostNotification</key>  <string>com.fpt.emojiprefs/reloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			  <key>cellClass</key>      <string>ESSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fpt.emojiprefs</string>
+			<key>key</key>
+			<string>forcePredictions</string>
+			<key>label</key>
+			<string>Force prediction bar</string>
+  	<key>PostNotification</key>  <string>com.fpt.emojiprefs/reloadPrefs</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			  <key>cellClass</key>      <string>ESSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.emojiprefs</string>
+			<key>key</key>
+			<string>merge</string>
+			<key>label</key>
+			<string>Merge multiple languages</string>
+  	<key>PostNotification</key>  <string>com.fpt.emojiprefs/reloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>  		<string>PSLinkListCell</string>
+			<key>defaults</key> 	<string>com.fpt.emojiprefs</string>
+			<key>detail</key> 		<string>PSListItemsController</string>
+			<key>key</key> 			<string>emojiColour</string>
+			<key>label</key> 		<string>Emoji skin tone</string>
+			<key>validTitles</key> <array>
+				<string>👍</string>
+				<string>👍🏻</string>
+				<string>👍🏼</string>
+				<string>👍🏽</string>
+				<string>👍🏾</string>
+				<string>👍🏿</string>
+			</array>
+			<key>validValues</key>
+			<array>
+												 <string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+			</array>
+			<key>PostNotification</key>  <string>com.fpt.emojiprefs/reloadPrefs</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Edit dictionaries</string>
+					<key>detail</key>               <string>editDictController</string>
+		</dict>
+
+<dict>
+				<key>cell</key>                 <string>PSGroupCell</string>
+				<key>label</key>               <string></string>
+	 </dict>
+	 <dict>
+		 <key>cell</key>                 <string>PSButtonCell</string>
+					<key>label</key>           <string>Donate</string>
+					<key>icon</key>           <string>paypal.png</string>
+		 <key>action</key>           <string>paypal</string>
+	 </dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

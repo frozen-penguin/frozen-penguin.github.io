@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+<key>footerCellClass</key>
+<string>OHHeadingCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+ 
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			  <key>cellClass</key>      <string>OHSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.onehanded</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable</string>
+  	<key>PostNotification</key>  <string>com.fpt.onehanded/reloadPrefs</string>
+		</dict>
+
+		<dict>
+				<key>cell</key>                 <string>PSGroupCell</string>
+				<key>label</key>               <string>Options</string>
+	 </dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			  <key>cellClass</key>      <string>OHSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fpt.onehanded</string>
+			<key>key</key>
+			<string>forceBoard</string>
+			<key>label</key>
+			<string>Make Permanent</string>
+  	<key>PostNotification</key>  <string>com.fpt.onehanded/reloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>  		<string>PSLinkListCell</string>
+			<key>defaults</key> 	<string>com.fpt.onehanded</string>
+ 			<key>detail</key> 		<string>PSListItemsController</string>
+ 			<key>key</key> 			<string>defaultBoard</string>
+ 			<key>label</key> 		<string>Default Keyboard</string>
+ 			<key>validTitles</key> <array>
+ 				<string>Normal</string>
+ 				<string>Left-Handed</string>
+ 				<string>Right-Handed</string>
+ 			</array>
+ 			<key>validValues</key>
+ 			<array>
+				<string>normal</string>
+ 				<string>left</string>
+ 				<string>right</string>
+ 			</array>
+			<key>PostNotification</key>  <string>com.fpt.onehanded/reloadPrefs</string>
+		</dict>
+
+		<dict>
+				<key>cell</key>                 <string>PSGroupCell</string>
+				<key>label</key>               <string></string>
+<key>footerText</key>      <string>If you like this tweak, consider buying me a coffee :)</string>
+	 </dict>
+	 <dict>
+		 <key>cell</key>                 <string>PSButtonCell</string>
+					<key>label</key>           <string>Donate</string>
+					<key>icon</key>           <string>paypal.png</string>
+		 <key>action</key>           <string>paypal</string>
+	 </dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

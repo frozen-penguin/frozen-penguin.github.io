@@ -1,0 +1,10 @@
+Package: com.fpt.dontcorrectme
+Name: dontcorrectme
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Choose languages to disable autocorrection for.
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 0.0.1-16
+Installed-Size: 284

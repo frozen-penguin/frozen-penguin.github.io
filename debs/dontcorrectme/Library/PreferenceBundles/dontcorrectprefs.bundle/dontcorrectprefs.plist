@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>           	<string></string>
+		  <key>footerCellClass</key>  <string>DCHeadingCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>            <string></string>
+		</dict>
+
+		<dict>
+			<key>cell</key>	             <string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>DCSwitchTableCell</string>
+			<key>default</key>           <true/>
+			<key>defaults</key>          <string>com.fpt.dontcorrectprefs</string>
+			<key>key</key>               <string>enabled</string>
+			<key>label</key>             <string>Enabled</string>
+		  <key>PostNotification</key>  <string>com.fpt.dontcorrectprefs/reloadPrefs</string>
+		</dict>
+
+		<dict>
+				<key>cell</key>             <string>PSGroupCell</string>
+				<key>label</key>            <string>Options</string>
+		</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>chosenKeyboard</string>
+		 <key>key</key>                    <string>chosenKeyboard</string>
+		 <key>label</key>                  <string>Keyboard:</string>
+     <key>placeholder</key>            <string>en-AU</string>
+		 <key>defaults</key> 	             <string>com.fpt.dontcorrectprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.dontcorrectprefs/reloadPrefs</string>
+</dict>
+
+
+<dict>
+	<key>cell</key>                 <string>PSButtonCell</string>
+			 <key>label</key>           <string>Load keyboard</string>
+	<key>action</key>           <string>loadKeyboard</string>
+</dict>
+
+
+	<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>            <string>Support</string>
+			<key>footerText</key>       <string></string>
+	</dict>
+
+	<dict>
+		<key>action</key>             	<string>sendEmail</string>
+		<key>icon</key>               	<string>mail.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+		<key>label</key>              	<string>Email</string>
+	</dict>
+
+	 <dict>
+		 <key>cell</key>                 <string>PSButtonCell</string>
+					<key>label</key>           <string>Donate</string>
+					<key>icon</key>           <string>paypal.png</string>
+		 <key>action</key>           <string>paypal</string>
+	 </dict>
+
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		  <key>footerCellClass</key>  <string>CGHeadingCell</string>
+			<key>footerAlignment</key>
+			<string>0</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>footerAlignment</key>
+			<string>0</string>
+		</dict>
+
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>CGSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fpt.grabberprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.fpt.grabberprefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Color</string>
+<key>footerText</key>
+			<string>There isn't a need to respring to change the colour, just move the grabber up and down.</string>
+		</dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>cellClass</key>
+            <string>PFColorCell</string>
+            <key>label</key>
+            <string>Grabber Color</string>
+            <key>color_defaults</key>
+            <string>com.fpt.grabberprefs</string>
+            <key>color_key</key>
+            <string>aColor</string>
+            <key>title</key>
+            <string>A Color</string>
+            <key>color_fallback</key>
+            <string>#10b6ec</string>
+            <key>usesRGB</key>
+            <false/>
+            <key>usesAlpha</key>
+            <false/>
+            <key>color_postNotification</key>
+            <string>com.fpt.grabberprefs.settingschanged</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support</string>
+			<key>footerAlignment</key>
+			<string>0</string>
+		</dict>
+
+	<dict>
+		<key>action</key>             	<string>sendEmail</string>
+		<key>icon</key>               	<string>mail.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+		<key>label</key>              	<string>Email</string>
+	</dict>
+
+	<dict>
+		<key>action</key>             	<string>paypal</string>
+		<key>icon</key>               	<string>paypal.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+		<key>label</key>              	<string>Donate</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

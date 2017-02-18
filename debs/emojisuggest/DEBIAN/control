@@ -1,0 +1,10 @@
+Package: com.fpt.emojisuggest
+Name: EmojiSuggest
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Emojis in prediction bar.
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.2.1-4
+Installed-Size: 600

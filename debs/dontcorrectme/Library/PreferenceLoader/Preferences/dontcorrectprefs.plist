@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = dontcorrectprefs;
+	cell = PSLinkCell;
+	detail = dontcorrectprefsListController;
+	icon = icon.png;
+	isController = 1;
+	label = "DontCorrectMe";
+    };
+}

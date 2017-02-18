@@ -1,0 +1,10 @@
+Package: com.fpt.predictionshortcuts
+Name: PredictionShortcuts
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Shortcuts above the keyboard.
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.6.0
+Installed-Size: 592

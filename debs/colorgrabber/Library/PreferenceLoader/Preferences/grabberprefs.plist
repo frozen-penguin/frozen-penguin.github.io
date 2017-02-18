@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = grabberprefs;
+	cell = PSLinkCell;
+	detail = grabberprefsListController;
+	icon = icon.png;
+	isController = 1;
+	label = "ColorGrabber";
+    };
+}

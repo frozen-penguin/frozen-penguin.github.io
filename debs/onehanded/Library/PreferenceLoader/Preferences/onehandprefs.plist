@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = onehandprefs;
+	cell = PSLinkCell;
+	detail = onehandprefsListController;
+	icon = onehandprefs.png;
+	isController = 1;
+	label = OneHanded;
+    };
+}
