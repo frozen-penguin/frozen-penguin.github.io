@@ -1,5 +1,5 @@
 Package: com.fpt.dontcorrectme
-Name: dontcorrectme
+Name: DontCorrectMe
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Choose languages to disable autocorrection for.
