@@ -1,13 +1,13 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Follow me on Twitter</name>
-			<url>https://twitter.com/reposi3</url>
+			<name>Contact me on Reddit</name>
+			<url>https://reddit.com/u/FrozenPenguinToaster</url>
 			<iconclass>glyphicon glyphicon-user</iconclass>
 		</link>
 		<link>
-			<name>I want this depiction template</name>
-			<url>https://github.com/supermamon/Reposi3</url>
+			<name>Email me</name>
+			<url>mailto:penguins_can_fly@live.com</url>
 			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
 		</link>
 	</footerlinks>
