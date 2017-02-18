@@ -3,6 +3,7 @@ Name: ColorGrabber
 Depends: mobilesubstrate 
 Architecture: iphoneos-arm
 Description: Colourise keyboard prediction bar grabber/tab
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.colorgrabber
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

@@ -3,6 +3,7 @@ Name: EmojiSuggest
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Description: Emojis in prediction bar.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.emojisuggest
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

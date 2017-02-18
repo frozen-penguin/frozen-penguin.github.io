@@ -3,6 +3,7 @@ Name: Soft Timer
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Automatic reminder to keep you on time. Phrases triggered in messaging apps will start a timer on the lock screen.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.softtimer
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

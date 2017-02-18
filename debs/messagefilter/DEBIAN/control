@@ -3,6 +3,7 @@ Name: MessageFilter
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Blacklist and whitelist words for certain conversations.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.messagefilter
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

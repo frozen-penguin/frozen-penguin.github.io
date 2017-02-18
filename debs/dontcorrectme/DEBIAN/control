@@ -3,6 +3,7 @@ Name: DontCorrectMe
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Choose languages to disable autocorrection for.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.dontcorrectme
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

@@ -3,6 +3,7 @@ Name: PredictionShortcuts
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Description: Shortcuts above the keyboard.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.predictionshortcuts
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

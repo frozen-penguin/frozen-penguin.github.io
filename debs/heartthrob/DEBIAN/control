@@ -3,6 +3,7 @@ Name: Heart Throb
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Add double tap to favourite to photos app. Zoom changed to triple tap.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.heartthrob
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

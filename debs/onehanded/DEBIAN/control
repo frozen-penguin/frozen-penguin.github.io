@@ -3,6 +3,7 @@ Name: OneHanded
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
 Description: Enables built-in one-handed keyboard. Swipe left or right to activate.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.onehanded
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks

@@ -3,6 +3,7 @@ Name: Spotty
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Adds album art to the playlist view on Spotfiy.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.spotty
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks
