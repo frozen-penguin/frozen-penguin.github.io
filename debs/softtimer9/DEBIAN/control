@@ -1,0 +1,10 @@
+Package: com.fpt.softtimer9
+Name: Soft Timer (iOS 9)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Automatic reminder to keep you on time. Phrases triggered in messaging apps will start a timer on the lock screen.
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 1884
