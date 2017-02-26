@@ -29,6 +29,31 @@
 	  <key>PostNotification</key>     <string>com.fpt.bethereprefs/reloadPrefs</string>
 	</dict>
 
+	<dict>
+		<key>cell</key>             <string>PSGroupCell</string>
+		<key>label</key>        <string>Timer stacking order</string>
+<key>footerText</key>
+<string>Stacking from the bottom will make subsequent timers push the previous ones up.</string>
+	</dict>
+
+	<dict>
+			<key>cell</key>         <string>PSSegmentCell</string>
+			<key>defaults</key>     <string>com.fpt.bethereprefs</string>
+			<key>id</key>           <string>stackOrder</string>
+			<key>key</key>          <string>stackOrder</string>
+			<key>label</key>        <string>Stack timers from:</string>
+			<key>PostNotification</key>  <string>com.fpt.bethereprefs/reloadPrefs</string>
+			<key>validTitles</key> <array>
+					<string>Top</string>
+					<string>Bottom</string>
+			</array>
+			<key>validValues</key> <array>
+					<integer>0</integer>
+					<integer>1</integer>
+			</array>
+	</dict>
+
+
 		<dict>
 			<key>cell</key>             <string>PSGroupCell</string>
 			<key>label</key>        <string>Custom lockscreen coordinates</string>

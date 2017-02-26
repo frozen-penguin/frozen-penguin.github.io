@@ -10,7 +10,7 @@
 			<string>PSGroupCell</string>
 			<key>headerCellClass</key>
 			<string>headerCell</string>
-		</dict> 
+		</dict>
 
 		<dict>
 			<key>cell</key>             <string>PSGroupCell</string>
@@ -42,6 +42,12 @@
 					<key>cell</key>                  <string>PSLinkCell</string>
 					<key>label</key>                <string>Behaviour</string>
 					<key>detail</key>               <string>behaviourController</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Phrases</string>
+					<key>detail</key>               <string>phraseController</string>
 		</dict>
 
 		<dict>

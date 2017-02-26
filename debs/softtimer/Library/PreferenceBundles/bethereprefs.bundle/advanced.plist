@@ -4,13 +4,13 @@
 <dict>
 	<key>items</key>
 	<array>
-		
+
 			<dict>
 			<key>cell</key>             <string>PSGroupCell</string>
 	<key>label</key>       <string></string>
 			<key>footerText</key>       <string>The notification banners will automatically move down below the list of timers.</string>
 	</dict>
-		
+
 			<dict>
 		<key>cell</key>	                <string>PSSwitchCell</string>
 		<key>cellClass</key>            <string>BTSwitchTableCell</string>
@@ -20,7 +20,7 @@
 		<key>label</key>                <string>Prevent overlap</string>
 	  <key>PostNotification</key>     <string>com.fpt.bethereprefs/reloadPrefs</string>
 	</dict>
-	
+
 	<dict>
 			<key>cell</key>             <string>PSGroupCell</string>
 	<key>label</key>       <string>Individual behaviour</string>
@@ -103,8 +103,7 @@
 	<dict>
 			<key>cell</key>             <string>PSGroupCell</string>
 	<key>label</key>       <string>Custom coordinates to move to</string>
-			<key>footerText</key>       <string>
-</string>
+			<key>footerText</key> <string>These values are relative to the timer's default position.</string>
 	</dict>
 
 <dict>
