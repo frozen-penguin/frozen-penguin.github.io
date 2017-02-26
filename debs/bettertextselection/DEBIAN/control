@@ -2,10 +2,9 @@ Package: com.fpt.bettertextselection
 Name: BetterTextSelection
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Fixes the default text selection. Specifically, it stops iOS jumping to the end of paragraphs when selecting text. It should apply to all applications that use WebKit. 
-Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.bettertextselection
+Description: Fixes the default text selection. Specifically, it stops iOS jumping to the end of paragraphs when selecting text. It should apply to all applications that use WebKit.
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks
-Version: 1.1-15+debug
+Version: 1.1.1-1+debug
 Installed-Size: 168
