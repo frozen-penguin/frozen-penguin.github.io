@@ -1,0 +1,1 @@
+{ Filter = { Bundles = ( "com.apple.FuseUI" ); CoreFoundationVersion = (1240.10, 1348.00);}; }

@@ -1,5 +1,5 @@
-Package: com.fpt.dejavu2
-Name: Dejavu2
+Package: com.fpt.dejavu
+Name: Dejavu
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Stop adding duplicate songs to playlists.
@@ -7,4 +7,4 @@ Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks
 Version: 1.0.0
-Installed-Size: 380
+Installed-Size: 424
