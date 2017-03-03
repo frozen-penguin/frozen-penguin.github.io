@@ -1,0 +1,10 @@
+Package: com.fpt.fadenotifications
+Name: FadeNotifications
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Gradient fade out for notifications.
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0-16+debug
+Installed-Size: 168

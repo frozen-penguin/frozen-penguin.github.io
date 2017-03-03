@@ -8,5 +8,5 @@ dpkg-deb -Zgzip -b debs/softtimer
 dpkg-deb -Zgzip -b debs/predictionshortcuts
 dpkg-deb -Zgzip -b debs/colorgrabber
 dpkg-deb -Zgzip -b debs/onehanded
-dpkg-deb -Zgzip -b debs/softtimer9
 dpkg-deb -Zgzip -b debs/dejavu
+dpkg-deb -Zgzip -b debs/fadenotifications
