@@ -1,0 +1,1 @@
+{ Filter = { Bundles = ( "com.apple.MobileSMS", "com.apple.springboard","com.apple.mobilesms.notification","com.apple.MobileSMS.MessagesNotificationExtension","com.facebook.Messenger","net.whatsapp.WhatsApp","com.tencent.xin","com.kik.chat"); }; }

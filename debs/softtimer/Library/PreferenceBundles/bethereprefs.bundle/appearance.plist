@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+				<key>cell</key>             <string>PSGroupCell</string>
+				<key>label</key>            <string>Options</string>
+		</dict>
+
+	<dict>
+		<key>cell</key>	                <string>PSSwitchCell</string>
+		<key>cellClass</key>            <string>BTSwitchTableCell</string>
+		<key>default</key>              <true/>
+		<key>defaults</key>             <string>com.fpt.bethereprefs</string>
+		<key>key</key>                  <string>underlineText</string>
+		<key>label</key>                <string>Underline triggered text</string>
+	  <key>PostNotification</key>     <string>com.fpt.bethereprefs/reloadPrefs</string>
+	</dict>
+
+	<dict>
+		<key>cell</key>	                <string>PSSwitchCell</string>
+		<key>cellClass</key>            <string>BTSwitchTableCell</string>
+		<key>default</key>              <false/>
+		<key>defaults</key>             <string>com.fpt.bethereprefs</string>
+		<key>key</key>                  <string>showIcon</string>
+		<key>label</key>                <string>Show app icon with timer</string>
+	  <key>PostNotification</key>     <string>com.fpt.bethereprefs/reloadPrefs</string>
+	</dict>
+
+	<dict>
+		<key>cell</key>             <string>PSGroupCell</string>
+		<key>label</key>        <string>Timer stacking order</string>
+<key>footerText</key>
+<string>Stacking from the bottom will make subsequent timers push the previous ones up.</string>
+	</dict>
+
+	<dict>
+			<key>cell</key>         <string>PSSegmentCell</string>
+			<key>defaults</key>     <string>com.fpt.bethereprefs</string>
+			<key>id</key>           <string>stackOrder</string>
+			<key>key</key>          <string>stackOrder</string>
+			<key>label</key>        <string>Stack timers from:</string>
+			<key>PostNotification</key>  <string>com.fpt.bethereprefs/reloadPrefs</string>
+			<key>validTitles</key> <array>
+					<string>Top</string>
+					<string>Bottom</string>
+			</array>
+			<key>validValues</key> <array>
+					<integer>0</integer>
+					<integer>1</integer>
+			</array>
+	</dict>
+
+
+		<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>        <string>Custom lockscreen coordinates</string>
+<key>footerText</key>
+<string>These values are relative to the timer's default position.</string>
+		</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>customX</string>
+		 <key>key</key>                    <string>customX</string>
+		 <key>label</key>                  <string>X:</string>
+     <key>placeholder</key>            <string>0</string>
+		 <key>defaults</key> 	             <string>com.fpt.bethereprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.bethereprefs/reloadPrefs</string>
+</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>customY</string>
+		 <key>key</key>                    <string>customY</string>
+		 <key>label</key>                  <string>Y:</string>
+     <key>placeholder</key>            <string>0</string>
+		 <key>defaults</key> 	             <string>com.fpt.bethereprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.bethereprefs/reloadPrefs</string>
+</dict>
+
+		<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>        <string>Custom font size</string>
+<key>footerText</key>
+<string>Default text size is 15.</string>
+		</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>customFontSize</string>
+		 <key>key</key>                    <string>customFontSize</string>
+		 <key>label</key>                  <string>Size:</string>
+     <key>placeholder</key>            <string>15</string>
+		 <key>defaults</key> 	             <string>com.fpt.bethereprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.bethereprefs/reloadPrefs</string>
+</dict>
+
+	</array>
+	<key>title</key>
+	<string>Appearance</string>
+</dict>
+</plist>

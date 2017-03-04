@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+			<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+	<key>label</key>       <string></string>
+			<key>footerText</key>       <string>The notification banners will automatically move down below the list of timers.</string>
+	</dict>
+
+			<dict>
+		<key>cell</key>	                <string>PSSwitchCell</string>
+		<key>cellClass</key>            <string>BTSwitchTableCell</string>
+		<key>default</key>              <true/>
+		<key>defaults</key>             <string>com.fpt.bethereprefs</string>
+		<key>key</key>                  <string>autoMove</string>
+		<key>label</key>                <string>Prevent overlap</string>
+	  <key>PostNotification</key>     <string>com.fpt.bethereprefs/reloadPrefs</string>
+	</dict>
+
+	<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+	<key>label</key>       <string>Individual behaviour</string>
+			<key>footerText</key>       <string>
+</string>
+	</dict>
+
+		<dict>
+			<key>cell</key>  		<string>PSLinkListCell</string>
+			<key>defaults</key> 	<string>com.fpt.bethereprefs</string>
+			<key>detail</key> 		<string>PSListItemsController</string>
+			<key>key</key> 			<string>behaveMusic</string>
+			<key>label</key> 		<string>When music is playing</string>
+			<key>validTitles</key> <array>
+				<string>Do nothing</string>
+				<string>Hide</string>
+				<string>Go transparent</string>
+				<string>Move down</string>
+                         <string>Custom coordinates</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+			</array>
+			<key>PostNotification</key>  <string>com.fpt.bethereprefs/reloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>  		<string>PSLinkListCell</string>
+			<key>defaults</key> 	<string>com.fpt.bethereprefs</string>
+			<key>detail</key> 		<string>PSListItemsController</string>
+			<key>key</key> 			<string>behaveCharging</string>
+			<key>label</key> 		<string>When showing charging view</string>
+			<key>validTitles</key> <array>
+				<string>Do nothing</string>
+				<string>Hide</string>
+				<string>Go transparent</string>
+				<string>Move down</string>
+                         <string>Custom coordinates</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+			</array>
+			<key>PostNotification</key>  <string>com.fpt.bethereprefs/reloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>  		<string>PSLinkListCell</string>
+			<key>defaults</key> 	<string>com.fpt.bethereprefs</string>
+			<key>detail</key> 		<string>PSListItemsController</string>
+			<key>key</key> 			<string>behaveNotifications</string>
+			<key>label</key> 		<string>When notifications are present</string>
+			<key>validTitles</key> <array>
+				<string>Do nothing</string>
+				<string>Hide</string>
+				<string>Go transparent</string>
+				<string>Move down</string>
+                         <string>Custom coordinates</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+			</array>
+			<key>PostNotification</key>  <string>com.fpt.bethereprefs/reloadPrefs</string>
+		</dict>
+
+	<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+	<key>label</key>       <string>Custom coordinates to move to</string>
+			<key>footerText</key> <string>These values are relative to the timer's default position.</string>
+	</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>behaveCustomX</string>
+		 <key>key</key>                    <string>behaveCustomX</string>
+		 <key>label</key>                  <string>X:</string>
+     <key>placeholder</key>            <string>0</string>
+		 <key>defaults</key> 	             <string>com.fpt.bethereprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.bethereprefs/reloadPrefs</string>
+</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>behaveCustomY</string>
+		 <key>key</key>                    <string>behaveCustomY</string>
+		 <key>label</key>                  <string>Y:</string>
+     <key>placeholder</key>            <string>0</string>
+		 <key>defaults</key> 	             <string>com.fpt.bethereprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.bethereprefs/reloadPrefs</string>
+</dict>
+
+	</array>
+	<key>title</key>
+	<string>Advanced behaviour</string>
+</dict>
+</plist>
