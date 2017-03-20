@@ -1,0 +1,23 @@
+<package>
+	<id>com.fpt.softtimer</id>
+	<name>Soft Timer</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>10.0</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Adds a counter to the tab button in Safari.</description>
+	</descriptionlist>
+	<screenshots>tabcount1.png</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

@@ -1,10 +1,10 @@
-Package: com.fpt.fadenotifications
-Name: FadeNotifications
+Package: com.fpt.tabcount
+Name: TabCount
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Gradient fade out for notifications.
+Description:Show number of tabs in Safari
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks
-Version: 1.0.0-16+debug
+Version: 1.0.0
 Installed-Size: 168
