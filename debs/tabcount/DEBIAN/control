@@ -3,9 +3,8 @@ Name: TabCount
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description:Show number of tabs in Safari
-Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.tabcount
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks
-Version: 1.0.1
+Version: 1.0.2
 Installed-Size: 168
