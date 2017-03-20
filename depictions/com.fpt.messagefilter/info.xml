@@ -1,10 +1,10 @@
 <package>
-	<id>com.fpt.softtimer</id>
+	<id>com.fpt.messagefilter</id>
 	<name>MessageFilter (Beta)</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>9.0</maxiOS>
+			<maxiOS>10.0</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
@@ -13,7 +13,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>A cool little soft timer</description>
+		<description>Adds a whitelist and blacklist for contacts in messages. Access through 'i' button within conversations. </description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>

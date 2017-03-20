@@ -1,6 +1,6 @@
 <package>
-	<id>com.fpt.softtimer</id>
-	<name>Soft Timer</name>
+	<id>com.fpt.onehanded</id>
+	<name>OneHanded</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
@@ -13,7 +13,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>A cool little soft timer</description>
+		<description>Enable built-in buttons for keyboard. Activate by swiping right-left or vice versa.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>

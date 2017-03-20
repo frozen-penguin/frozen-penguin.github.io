@@ -1,6 +1,6 @@
 <package>
-	<id>com.fpt.softtimer</id>
-	<name>Soft Timer</name>
+	<id>com.fpt.colorgrabber</id>
+	<name>Color Grabber</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
@@ -13,7 +13,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>A cool little soft timer</description>
+		<description>Colorise the grabber on the prediction bar on the keyboard. Requires libcolorpicker</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
