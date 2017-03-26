@@ -17,9 +17,11 @@
 		<description>BETA. Merge control centre pages and remove AirPlay/AirDrop and Night Shift buttons.</description>
 	</descriptionlist>
 	<screenshot>
+		<description>LessControl in action.</description>
 				<image>screen1.PNG</image>
 			</screenshot>
 			<screenshot>
+				<description>You can also download AirFlip from my repo for an AirDrop button.</description>
 				<image>screen2.PNG</image>
 			</screenshot>
 	<changelog>
