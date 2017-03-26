@@ -18,9 +18,9 @@
 	</descriptionlist>
 	<screenshots>tabcount1.png</screenshots>
 	<changelog>
-		<change>1.0.2</change>
-	<change>Fix CC being cut-off on smaller devices.</change>
-	<change>Initial release</change>
+		<change>1.0.2: Fix CC being cut-off on smaller devices.</change>
+	<change>1.0.1: Fix darkening view not appearing.</change>
+	<change>1.0.0: Initial release</change>
 	</changelog>
 	<links></links>
 </package>
