@@ -1,0 +1,26 @@
+<package>
+	<id>com.fpt.lesscontrol</id>
+	<name>LessControl</name>
+	<version>1.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>BETA. Merge control centre pages and remove AirPlay/AirDrop and Night Shift buttons.</description>
+	</descriptionlist>
+	<screenshots>tabcount1.png</screenshots>
+	<changelog>
+		<change>1.0.2</change>
+	<change>Fix CC being cut-off on smaller devices.</change>
+	<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
