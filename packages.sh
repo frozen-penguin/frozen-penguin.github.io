@@ -11,3 +11,4 @@ dpkg-deb -Zgzip -b debs/onehanded
 dpkg-deb -Zgzip -b debs/dejavu
 dpkg-deb -Zgzip -b debs/tabcount
 dpkg-deb -Zgzip -b debs/lesscontrol
+dpkg-deb -Zgzip -b debs/airflip
