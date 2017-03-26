@@ -2,8 +2,12 @@
 	<changes>
 		<version>1.0.2</version>
 		<change>Fix CC being cut-off on smaller devices.</change>
+			</changes>
+			<changes>
 		<version>1.0.1</version>
 		<change>Fix darkening view not appearing.</change>
+			</changes>
+			<changes>
 		<version>1.0.0</version>
 		<change>First release</change>
 	</changes>

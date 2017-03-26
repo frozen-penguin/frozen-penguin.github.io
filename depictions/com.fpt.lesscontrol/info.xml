@@ -16,8 +16,12 @@
 	<descriptionlist>
 		<description>BETA. Merge control centre pages and remove AirPlay/AirDrop and Night Shift buttons.</description>
 	</descriptionlist>
-	<screenshots>screen1.PNG</screenshots>
-		<screenshots>screen2.PNG</screenshots>
+	<screenshot>
+				<image>screen1.PNG</image>
+			</screenshot>
+			<screenshot>
+				<image>screen2.PNG</image>
+			</screenshot>
 	<changelog>
 		<change>1.0.2: Fix CC being cut-off on smaller devices.</change>
 	<change>1.0.1: Fix darkening view not appearing.</change>
