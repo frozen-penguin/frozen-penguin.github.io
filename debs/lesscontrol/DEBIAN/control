@@ -2,7 +2,7 @@ Package: com.fpt.lesscontrol
 Name: LessControl
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Beta. Merges control centre pages and removes airplay and night shift buttons. There are reports of merged pages even when uninstalled with MiniCC also installed. Currently unable to recreate said bug. Install at your own risk.
+Description: Beta. Merges control centre pages and removes airplay and night shift buttons.
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Tweaks
