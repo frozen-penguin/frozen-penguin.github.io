@@ -14,19 +14,21 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>BETA. Merge control centre pages and remove AirPlay/AirDrop and Night Shift buttons.</description>
+		<description>BETA. Merge control centre pages and remove AirPlay/AirDrop and Night Shift buttons.
+		Not compatible with AppCenter or Platters.</description>
 	</descriptionlist>
 	<screenshots>
-	<screenshot>
-		<description>LessControl in action.</description>
-				<image>screen1.jpg</image>
+			<screenshot>
+				<description>LessControl in action.</description>
+				<image>screen1.PNG</image>
 			</screenshot>
 			<screenshot>
 				<description>You can also download AirFlip from my repo for an AirDrop button.</description>
-				<image>screen2.jpg</image>
+				<image>screen2.PNG</image>
 			</screenshot>
-		</screenshots>
+	</screenshots>
 	<changelog>
+		<change>1.0.3: Attempt #2 for smaller devices.</change>
 		<change>1.0.2: Fix CC being cut-off on smaller devices.</change>
 	<change>1.0.1: Fix darkening view not appearing.</change>
 	<change>1.0.0: Initial release</change>
