@@ -1,10 +1,11 @@
 <package>
-	<id>com.fpt.softtimer</id>
-	<name>Soft Timer</name>
-	<version>1.0.0</version>
+	<id>com.fpt.lesscontrol</id>
+	<name>SoftTimer</name>
+	<version>1.0.2</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>9.0</maxiOS>
+			<miniOS>9.0</miniOS>
+			<maxiOS>10.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
@@ -13,11 +14,23 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>A cool little soft timer</description>
+		<description>BETA. Add a timer to the lock screen when you send certain phrases.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+			<screenshot>
+				<description>Soft Timer.</description>
+				<image>screen1.PNG</image>
+			</screenshot>
+			<screenshot>
+				<description></description>
+				<image>screen2.PNG</image>
+			</screenshot>
+	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>1.0.3: Add phrases to preference pane.</change>
+		<change>1.0.2: Fix crashes for iOS 9.</change>
+	<change>1.0.1: Merge iOS 9 version.</change>
+	<change>1.0.0: Beta release</change>
 	</changelog>
 	<links></links>
 </package>
