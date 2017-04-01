@@ -2,9 +2,10 @@ Package: com.fpt.airflip
 Name: airflip
 Depends: mobilesubstrate, com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
-Description: Flipswitch for AirDrop on iOS10. Credit to PoomSmart for open sourcing AirDrop-Flipswitch.
+Description: An airdrop flip switch
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.airflip
 Maintainer: Frozen Penguin
 Author: Frozen Penguin
 Section: Addons (Flipswitch)
-Version: 0.0.1-8+debug
-Installed-Size: 212
+Version: 0.0.2-2+debug
+Installed-Size: 216

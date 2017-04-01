@@ -1,0 +1,24 @@
+<package>
+	<id>com.fpt.airflip</id>
+	<name>AirFlip</name>
+	<version>0.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>An AirDrop flipswitch.</description>
+	</descriptionlist>
+	<changelog>
+		<change>0.0.2: Horseshoe support.</change>
+	<change>0.0.1: Initial release</change>
+	</changelog>
+	<links></links>
+</package>
