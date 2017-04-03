@@ -1,0 +1,11 @@
+Package: com.fpt.divorce
+Name: Divorce
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Separate album name and artist name on CC.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.divorce
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0-63+debug
+Installed-Size: 168

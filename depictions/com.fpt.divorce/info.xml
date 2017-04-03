@@ -1,7 +1,7 @@
 <package>
-	<id>com.fpt.lesscontrol</id>
-	<name>LessControl</name>
-	<version>1.0.3</version>
+	<id>com.fpt.divorce</id>
+	<name>Divorce</name>
+	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -14,23 +14,19 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>BETA. Merge control centre pages and remove AirPlay/AirDrop and Night Shift buttons.
-		Not compatible with AppCenter or Platters.</description>
+		<description>Separate the album and artist names in the control centre. Designed for use ONLY with CC tweaks like LessControl and HorseShoe.</description>
 	</descriptionlist>
 	<screenshots>
 			<screenshot>
-				<description>LessControl in action.</description>
+				<description>Before filing for divorce.</description>
 				<image>screen1.PNG</image>
 			</screenshot>
 			<screenshot>
-				<description>You can also download AirFlip from my repo for an AirDrop button.</description>
+				<description>After making it official.</description>
 				<image>screen2.PNG</image>
 			</screenshot>
 	</screenshots>
 	<changelog>
-		<change>1.0.3: Attempt #2 for smaller devices.</change>
-		<change>1.0.2: Fix CC being cut-off on smaller devices.</change>
-	<change>1.0.1: Fix darkening view not appearing.</change>
 	<change>1.0.0: Initial release</change>
 	</changelog>
 	<links></links>
