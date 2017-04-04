@@ -1,5 +1,9 @@
 <changelog>
 		<changes>
+		<version>1.0.2</version>
+		<change>Fix for bug when 3D-touching music controls.</change>
+	</changes>
+		<changes>
 		<version>1.0.1</version>
 		<change>Fix for right to left languages.</change>
 	</changes>
