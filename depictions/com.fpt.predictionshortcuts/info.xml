@@ -1,10 +1,10 @@
 <package>
-	<id>com.fpt.softtimer</id>
-	<name>Soft Timer</name>
+	<id>com.fpt.predictionshortcuts</id>
+	<name>PredictionShortcuts</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>9.0</maxiOS>
+			<maxiOS>10.2</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
@@ -13,7 +13,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>A cool little soft timer</description>
+		<description>Shortcuts in prediction bar.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>

@@ -28,6 +28,7 @@
 			</screenshot>
 	</screenshots>
 	<changelog>
+		<change>1.0.4: Fix landscape freeze. Improve layout on 5S/SE screens.</change>
 		<change>1.0.3: Attempt #2 for smaller devices.</change>
 		<change>1.0.2: Fix CC being cut-off on smaller devices.</change>
 	<change>1.0.1: Fix darkening view not appearing.</change>
