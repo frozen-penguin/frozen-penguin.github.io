@@ -1,0 +1,11 @@
+Package: com.fpt.shrinkray
+Name: Shrinkray
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Shrink empty space on horseshoe.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.shrinkray
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.2-3+debug
+Installed-Size: 172
