@@ -3,7 +3,7 @@ dpkg-deb -Zgzip -b debs/bettertextselection
 dpkg-deb -Zgzip -b debs/heartthrob
 dpkg-deb -Zgzip -b debs/dontcorrectme
 dpkg-deb -Zgzip -b debs/emojisuggest
-dpkg-deb -Zgzip -b debs/messagefilter
+dpkg-deb -Zgzip -b debs/messagefilteray
 dpkg-deb -Zgzip -b debs/softtimer
 dpkg-deb -Zgzip -b debs/predictionshortcuts
 dpkg-deb -Zgzip -b debs/colorgrabber
@@ -13,3 +13,4 @@ dpkg-deb -Zgzip -b debs/tabcount
 dpkg-deb -Zgzip -b debs/lesscontrol
 dpkg-deb -Zgzip -b debs/airflip
 dpkg-deb -Zgzip -b debs/divorce
+dpkg-deb -Zgzip -b debs/shrinkray

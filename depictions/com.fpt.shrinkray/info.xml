@@ -1,0 +1,33 @@
+<package>
+	<id>com.fpt.shrinkray</id>
+	<name>Shrinkray</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Designed for use with HorseShoe. Shrinks the control centre to remove the empty space when you hide sections. If your CC looks funny after hiding or showing a section just close and reopen the CC. This also removes the ability to swipe horizontally because I find that annoying.</description>
+	</descriptionlist>
+	<screenshots>
+			<screenshot>
+				<description>Before</description>
+				<image>screen1.JPG</image>
+			</screenshot>
+			<screenshot>
+				<description>After</description>
+				<image>screen2.JPG</image>
+			</screenshot>
+	</screenshots>
+	<changelog>
+	<change>1.0.0: Initial release</change>
+	</changelog>
+	<links></links>
+</package>
