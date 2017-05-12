@@ -14,3 +14,4 @@ dpkg-deb -Zgzip -b debs/lesscontrol
 dpkg-deb -Zgzip -b debs/airflip
 dpkg-deb -Zgzip -b debs/divorce
 dpkg-deb -Zgzip -b debs/shrinkray
+dpkg-deb -Zgzip -b debs/thumbtack

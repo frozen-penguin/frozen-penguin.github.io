@@ -1,0 +1,29 @@
+<package>
+	<id>com.fpt.thumbtack</id>
+	<name>Thumbtack</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>A tweak for the native notes app. Long press on a note to pin it to the top of the list. Long pressing again will remove the pin.</description>
+	</descriptionlist>
+	<screenshots>
+			<screenshot>
+				<description>The pins in action.</description>
+				<image>screen1.JPG</image>
+			</screenshot>
+	</screenshots>
+	<changelog>
+	<change>1.0.0: Initial release</change>
+	</changelog>
+	<links></links>
+</package>

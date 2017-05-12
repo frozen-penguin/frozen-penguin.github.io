@@ -1,0 +1,11 @@
+Package: com.fpt.thumbtack
+Name: Thumbtack
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Pin notes with long press. 
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.thumbtack
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0-55+debug
+Installed-Size: 176
