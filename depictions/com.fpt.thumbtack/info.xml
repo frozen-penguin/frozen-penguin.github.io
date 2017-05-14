@@ -1,7 +1,7 @@
 <package>
 	<id>com.fpt.thumbtack</id>
 	<name>Thumbtack</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -22,6 +22,9 @@
 				<image>screen1.JPG</image>
 			</screenshot>
 	</screenshots>
+	<changelog>
+	<change>1.0.1: Support for old notes</change>
+	</changelog>
 	<changelog>
 	<change>1.0.0: Initial release</change>
 	</changelog>

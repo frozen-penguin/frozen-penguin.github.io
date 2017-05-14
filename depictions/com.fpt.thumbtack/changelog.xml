@@ -1,4 +1,8 @@
-<changelog>
+<changelog> 
+			<changes>
+		<version>1.0.1</version>
+		<change>Fix for old notes</change>
+	</changes>
 			<changes>
 		<version>1.0.0</version>
 		<change>First release</change>
