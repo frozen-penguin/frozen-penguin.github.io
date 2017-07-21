@@ -1,7 +1,7 @@
 <package>
 	<id>com.fpt.lesscontrol</id>
 	<name>SoftTimer</name>
-	<version>1.0.2</version>
+	<version>1.0.4</version>
 	<compatibility>
 		<firmware>
 			<otherVersions>unsupported</otherVersions>
@@ -25,6 +25,7 @@
 			</screenshot>
 	</screenshots>
 	<changelog>
+		<change>1.0.4: Enable ability to add phrases.</change>
 		<change>1.0.3: Add phrases to preference pane.</change>
 		<change>1.0.2: Fix crashes for iOS 9.</change>
 	<change>1.0.1: Merge iOS 9 version.</change>
