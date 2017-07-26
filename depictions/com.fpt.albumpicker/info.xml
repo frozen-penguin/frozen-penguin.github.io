@@ -1,0 +1,33 @@
+<package>
+	<id>com.fpt.albumpicker</id>
+	<name>AlbumPicker</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>From the camera app you can choose which album a photo will be saved to.</description>
+	</descriptionlist>
+	<screenshots>
+			<screenshot>
+				<description>Screenshot 1</description>
+				<image>screen1.PNG</image>
+			</screenshot>
+			<screenshot>
+				<description>Screenshot 2</description>
+				<image>screen2.PNG</image>
+			</screenshot>
+	</screenshots>
+	<changelog>
+	<change>1.0.0: Initial release</change>
+	</changelog>
+	<links></links>
+</package>

@@ -1,0 +1,11 @@
+Package: com.fpt.albumpicker
+Name: AlbumPicker
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Save photos in albums from camera. 
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.albumpicker
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0-21+debug
+Installed-Size: 220
