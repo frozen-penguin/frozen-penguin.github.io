@@ -1,0 +1,10 @@
+Package: com.fpt.protectdetails
+Name: ProtectDetails
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Protect details in messages app with touch ID.
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0-11+debug
+Installed-Size: 172
