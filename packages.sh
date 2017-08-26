@@ -17,3 +17,4 @@ dpkg-deb -Zgzip -b debs/shrinkray
 dpkg-deb -Zgzip -b debs/thumbtack
 dpkg-deb -Zgzip -b debs/albumpicker
 dpkg-deb -Zgzip -b debs/protectdetails
+dpkg-deb -Zgzip -b debs/miracle

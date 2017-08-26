@@ -1,0 +1,11 @@
+Package: com.fpt.miracle
+Name: Miracle
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Turn messages with bible verses into links.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.miracle
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0-161+debug
+Installed-Size: 172

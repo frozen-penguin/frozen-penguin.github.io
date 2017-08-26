@@ -1,0 +1,32 @@
+<package>
+	<id>com.fpt.miracle</id>
+	<name>Miracle</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>I can't turn water into wine, but I can turn bible verses into links.
+Requirements: Faith and iOS 10 (or 9 maybe?)
+Applies to the messages app only.
+If you have the YouVersion app it will open that, otherwise bible.com.</description>
+	</descriptionlist>
+	<screenshots>
+			<screenshot>
+				<description>Verse link</description>
+				<image>screen1.png</image>
+			</screenshot>
+	</screenshots>
+	<changelog>
+	<change>1.0.0: Initial release</change>
+	</changelog>
+	<links></links>
+</package>
