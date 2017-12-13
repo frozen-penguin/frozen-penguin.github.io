@@ -1,0 +1,29 @@
+<package>
+	<id>com.fpt.lesscontrol</id>
+	<name>PrivateMessage</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Double tap on a message to protect it with Touch ID.</description>
+	</descriptionlist>
+	<screenshots>
+			<screenshot>
+				<description>Screenshot.</description>
+				<image>screen1.jpg</image>
+			</screenshot>
+	</screenshots>
+	<changelog>
+	<change>1.0.0: Initial release</change>
+	</changelog>
+	<links></links>
+</package>

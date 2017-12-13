@@ -1,0 +1,11 @@
+Package: com.fpt.privatemessage
+Name: PrivateMessage
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Double tap on a message to lock it with Touch ID.
+Depiction: https://frozen-penguin.github.io/depictions/?p=com.fpt.privatemessage
+Maintainer: Frozen Penguin
+Author: Frozen Penguin
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 172
